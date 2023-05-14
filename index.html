@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <style>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333; 
+  align-items: center;
+}
+
+nav li {
+	float: center;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  text-align: center;
+}
+
+nav li a:hover {
+	background-color: #111;
+}
+
+  
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .profile video {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+  }
+  
+  
+  .social-links {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social-links a:hover {
+    color: #666;
+  }
+  
+  footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 600px) {
+    .profile img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  </style>
+</head>
+<body background="background.png">
+  <header>
+   <h1> VOTE NOW </h1>
+    <nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="https://rakesh-ada.github.io/MY-PROFILE/">About</a></li>
+				
+			</ul>
+		</nav>
+  </header>
+  <main> 
+    <iframe name="opinionstage-widget" src="https://www.opinionstage.com/api/v2/widgets/9bead942-1a25-4773-9e95-aea2520cb018/iframe" data-opinionstage-iframe="9bead942-1a25-4773-9e95-aea2520cb018" width="100%" height="800" scrolling="auto" style="border: none;" frameBorder="0" allow="fullscreen" webkitallowfullscreen="true" mozallowfullscreen="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </main>
+      <ul class="social-links">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        
+
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 VOTE NOW </p>
+  </footer>
+</body>
+</html>
